@@ -45,10 +45,9 @@ onMounted(() => {
 })
 </script>
 
+<!-- Template -->
 <template>
-  
   <main class="app">
-    
     <section class="greeting">
       <h2 class="title">
         What's up, <input type="text" placeholder="Name Here" v-model="name">
